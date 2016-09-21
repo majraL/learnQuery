@@ -17,8 +17,8 @@ function findFiboSeq() {
 	}
 
 	/*document.getElementById('fibo').insertAdjacentHTML('afterend', third);*/
+	document.getElementById('fibo').value = ``;
 	document.getElementById('fiboSeq').innerHTML = `: (${seq}) =`;
 	document.getElementById('fiboSeqL').insertAdjacentHTML('afterend', ` ${third}, `);
-	document.getElementById('fibo').value = ``;
 
 }

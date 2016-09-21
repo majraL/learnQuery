@@ -3,10 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="learning how to build a library">
+	<link rel="stylesheet" href="style.css">
 	<title>learnQuery()</title>
 </head>
 <body>
-	<div id="output"></div>
+	<div id="main">
+	  <div class="center">
+	  	<label for="fibo" id="fiboSeqL">Fibo Sequence <span id="fiboSeq"></span></label>
+	    <input id="fibo" name="fibo" type="text" placeholder="Type a sequence">
+	    <div id="output"></div>
+	    <button id="btnFibo" onclick="findFiboSeq()">Click!</button>
+	  </div>
+	</div>
 	<script src="script.js"></script>
 </body>
 </html>
